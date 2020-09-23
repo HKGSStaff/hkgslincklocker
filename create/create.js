@@ -137,7 +137,7 @@ async function onEncrypt() {
 
   const encrypted = await generateFragment(url, password, hint, useRandomSalt,
       useRandomIv);
-  const output = `https://hkgsstaff.github.io/hkgslincklocker/#${encrypted}`;
+  const output = `https://hkgsstaff.github.io/hkgslinklocker/#${encrypted}`;
 
   document.querySelector("#output").value = output;
   highlight("output");
